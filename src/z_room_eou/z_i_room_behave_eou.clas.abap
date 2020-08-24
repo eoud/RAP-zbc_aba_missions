@@ -1,0 +1,5 @@
+CLASS z_i_room_behave_eou DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF z_i_room_eou.
+ENDCLASS.
+
+CLASS z_i_room_behave_eou IMPLEMENTATION.
+ENDCLASS.

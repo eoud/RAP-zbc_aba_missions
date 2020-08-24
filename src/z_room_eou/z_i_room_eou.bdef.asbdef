@@ -1,0 +1,14 @@
+implementation unmanaged;
+
+define behavior for Z_I_Room_Eou alias Room
+//late numbering
+lock master
+etag master lastchangeddatetime
+{
+  create;
+  update;
+  delete;
+
+  field ( mandatory ) id;
+  field ( read only ) lastchangedbyuser, lastchangeddatetime;
+}
